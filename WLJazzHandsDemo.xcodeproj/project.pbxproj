@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		350F68303BA82F66607A2F3F /* libPods-WLJazzHandsDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E42E76445240709EE578EB /* libPods-WLJazzHandsDemoTests.a */; };
+		3DCA63681CC8D7DF00AD0758 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA63671CC8D7DF00AD0758 /* main.m */; };
+		3DCA636B1CC8D7DF00AD0758 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA636A1CC8D7DF00AD0758 /* AppDelegate.m */; };
+		3DCA636E1CC8D7DF00AD0758 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA636D1CC8D7DF00AD0758 /* ViewController.m */; };
+		3DCA63711CC8D7DF00AD0758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCA636F1CC8D7DF00AD0758 /* Main.storyboard */; };
+		3DCA63731CC8D7DF00AD0758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCA63721CC8D7DF00AD0758 /* Assets.xcassets */; };
+		3DCA63811CC8D7E000AD0758 /* WLJazzHandsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA63801CC8D7E000AD0758 /* WLJazzHandsDemoTests.m */; };
+		3DCA638D1CC8DAF600AD0758 /* WLGuidePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA638C1CC8DAF600AD0758 /* WLGuidePageView.m */; };
+		F601D0BAD15C4DA881344053 /* libPods-WLJazzHandsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B318D2F9913D2056969227 /* libPods-WLJazzHandsDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DCA637D1CC8D7E000AD0758 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DCA635B1CC8D7DF00AD0758 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DCA63621CC8D7DF00AD0758;
+			remoteInfo = WLJazzHandsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29B318D2F9913D2056969227 /* libPods-WLJazzHandsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLJazzHandsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF64C107375AF33024F2646 /* Pods-WLJazzHandsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLJazzHandsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLJazzHandsDemo/Pods-WLJazzHandsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3DCA63631CC8D7DF00AD0758 /* WLJazzHandsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLJazzHandsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCA63671CC8D7DF00AD0758 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DCA63691CC8D7DF00AD0758 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3DCA636A1CC8D7DF00AD0758 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DCA636C1CC8D7DF00AD0758 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3DCA636D1CC8D7DF00AD0758 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3DCA63701CC8D7DF00AD0758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DCA63721CC8D7DF00AD0758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DCA63771CC8D7DF00AD0758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCA637C1CC8D7DF00AD0758 /* WLJazzHandsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLJazzHandsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCA63801CC8D7E000AD0758 /* WLJazzHandsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLJazzHandsDemoTests.m; sourceTree = "<group>"; };
+		3DCA63821CC8D7E000AD0758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCA638B1CC8DAF600AD0758 /* WLGuidePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLGuidePageView.h; sourceTree = "<group>"; };
+		3DCA638C1CC8DAF600AD0758 /* WLGuidePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLGuidePageView.m; sourceTree = "<group>"; };
+		3DCA638E1CC8DEFA00AD0758 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3DCA638F1CC8E92F00AD0758 /* MacroDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDefine.h; sourceTree = "<group>"; };
+		83EABB929EFB22D8B213DEAF /* Pods-WLJazzHandsDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLJazzHandsDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLJazzHandsDemoTests/Pods-WLJazzHandsDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		89E42E76445240709EE578EB /* libPods-WLJazzHandsDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLJazzHandsDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09580CB046CC267000F0D4B /* Pods-WLJazzHandsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLJazzHandsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLJazzHandsDemo/Pods-WLJazzHandsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D4A21810561E72878FA902FB /* Pods-WLJazzHandsDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLJazzHandsDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLJazzHandsDemoTests/Pods-WLJazzHandsDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DCA63601CC8D7DF00AD0758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F601D0BAD15C4DA881344053 /* libPods-WLJazzHandsDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCA63791CC8D7DF00AD0758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350F68303BA82F66607A2F3F /* libPods-WLJazzHandsDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCA635A1CC8D7DF00AD0758 = {
+			isa = PBXGroup;
+			children = (
+				3DCA63651CC8D7DF00AD0758 /* WLJazzHandsDemo */,
+				3DCA637F1CC8D7E000AD0758 /* WLJazzHandsDemoTests */,
+				3DCA63641CC8D7DF00AD0758 /* Products */,
+				E79442B9E1FC8A4EE157DF8B /* Pods */,
+				AB5519BCC37F5F84030C10F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DCA63641CC8D7DF00AD0758 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DCA63631CC8D7DF00AD0758 /* WLJazzHandsDemo.app */,
+				3DCA637C1CC8D7DF00AD0758 /* WLJazzHandsDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCA63651CC8D7DF00AD0758 /* WLJazzHandsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3DCA638F1CC8E92F00AD0758 /* MacroDefine.h */,
+				3DCA638B1CC8DAF600AD0758 /* WLGuidePageView.h */,
+				3DCA638C1CC8DAF600AD0758 /* WLGuidePageView.m */,
+				3DCA63691CC8D7DF00AD0758 /* AppDelegate.h */,
+				3DCA636A1CC8D7DF00AD0758 /* AppDelegate.m */,
+				3DCA636C1CC8D7DF00AD0758 /* ViewController.h */,
+				3DCA636D1CC8D7DF00AD0758 /* ViewController.m */,
+				3DCA636F1CC8D7DF00AD0758 /* Main.storyboard */,
+				3DCA63721CC8D7DF00AD0758 /* Assets.xcassets */,
+				3DCA63771CC8D7DF00AD0758 /* Info.plist */,
+				3DCA63661CC8D7DF00AD0758 /* Supporting Files */,
+			);
+			path = WLJazzHandsDemo;
+			sourceTree = "<group>";
+		};
+		3DCA63661CC8D7DF00AD0758 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DCA63671CC8D7DF00AD0758 /* main.m */,
+				3DCA638E1CC8DEFA00AD0758 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DCA637F1CC8D7E000AD0758 /* WLJazzHandsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DCA63801CC8D7E000AD0758 /* WLJazzHandsDemoTests.m */,
+				3DCA63821CC8D7E000AD0758 /* Info.plist */,
+			);
+			path = WLJazzHandsDemoTests;
+			sourceTree = "<group>";
+		};
+		AB5519BCC37F5F84030C10F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B318D2F9913D2056969227 /* libPods-WLJazzHandsDemo.a */,
+				89E42E76445240709EE578EB /* libPods-WLJazzHandsDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E79442B9E1FC8A4EE157DF8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EF64C107375AF33024F2646 /* Pods-WLJazzHandsDemo.debug.xcconfig */,
+				B09580CB046CC267000F0D4B /* Pods-WLJazzHandsDemo.release.xcconfig */,
+				D4A21810561E72878FA902FB /* Pods-WLJazzHandsDemoTests.debug.xcconfig */,
+				83EABB929EFB22D8B213DEAF /* Pods-WLJazzHandsDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DCA63621CC8D7DF00AD0758 /* WLJazzHandsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCA63851CC8D7E000AD0758 /* Build configuration list for PBXNativeTarget "WLJazzHandsDemo" */;
+			buildPhases = (
+				6D719C8F60EDC33C1CF39F28 /* 📦 Check Pods Manifest.lock */,
+				3DCA635F1CC8D7DF00AD0758 /* Sources */,
+				3DCA63601CC8D7DF00AD0758 /* Frameworks */,
+				3DCA63611CC8D7DF00AD0758 /* Resources */,
+				8B628C945DEF4473344A6AB6 /* 📦 Embed Pods Frameworks */,
+				CA4AC6AC3382D2846552CBB9 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WLJazzHandsDemo;
+			productName = WLJazzHandsDemo;
+			productReference = 3DCA63631CC8D7DF00AD0758 /* WLJazzHandsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DCA637B1CC8D7DF00AD0758 /* WLJazzHandsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCA63881CC8D7E000AD0758 /* Build configuration list for PBXNativeTarget "WLJazzHandsDemoTests" */;
+			buildPhases = (
+				D6C1416B6B03E8E668FB2EC6 /* 📦 Check Pods Manifest.lock */,
+				3DCA63781CC8D7DF00AD0758 /* Sources */,
+				3DCA63791CC8D7DF00AD0758 /* Frameworks */,
+				3DCA637A1CC8D7DF00AD0758 /* Resources */,
+				18714ACD6154B687C43EE336 /* 📦 Embed Pods Frameworks */,
+				B7E0212531D48A76940D27ED /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DCA637E1CC8D7E000AD0758 /* PBXTargetDependency */,
+			);
+			name = WLJazzHandsDemoTests;
+			productName = WLJazzHandsDemoTests;
+			productReference = 3DCA637C1CC8D7DF00AD0758 /* WLJazzHandsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DCA635B1CC8D7DF00AD0758 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lane128;
+				TargetAttributes = {
+					3DCA63621CC8D7DF00AD0758 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3DCA637B1CC8D7DF00AD0758 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3DCA63621CC8D7DF00AD0758;
+					};
+				};
+			};
+			buildConfigurationList = 3DCA635E1CC8D7DF00AD0758 /* Build configuration list for PBXProject "WLJazzHandsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DCA635A1CC8D7DF00AD0758;
+			productRefGroup = 3DCA63641CC8D7DF00AD0758 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DCA63621CC8D7DF00AD0758 /* WLJazzHandsDemo */,
+				3DCA637B1CC8D7DF00AD0758 /* WLJazzHandsDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DCA63611CC8D7DF00AD0758 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCA63731CC8D7DF00AD0758 /* Assets.xcassets in Resources */,
+				3DCA63711CC8D7DF00AD0758 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCA637A1CC8D7DF00AD0758 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18714ACD6154B687C43EE336 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLJazzHandsDemoTests/Pods-WLJazzHandsDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D719C8F60EDC33C1CF39F28 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B628C945DEF4473344A6AB6 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLJazzHandsDemo/Pods-WLJazzHandsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7E0212531D48A76940D27ED /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLJazzHandsDemoTests/Pods-WLJazzHandsDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA4AC6AC3382D2846552CBB9 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLJazzHandsDemo/Pods-WLJazzHandsDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6C1416B6B03E8E668FB2EC6 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DCA635F1CC8D7DF00AD0758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCA636E1CC8D7DF00AD0758 /* ViewController.m in Sources */,
+				3DCA638D1CC8DAF600AD0758 /* WLGuidePageView.m in Sources */,
+				3DCA636B1CC8D7DF00AD0758 /* AppDelegate.m in Sources */,
+				3DCA63681CC8D7DF00AD0758 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCA63781CC8D7DF00AD0758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCA63811CC8D7E000AD0758 /* WLJazzHandsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DCA637E1CC8D7E000AD0758 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DCA63621CC8D7DF00AD0758 /* WLJazzHandsDemo */;
+			targetProxy = 3DCA637D1CC8D7E000AD0758 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DCA636F1CC8D7DF00AD0758 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCA63701CC8D7DF00AD0758 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DCA63831CC8D7E000AD0758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3DCA63841CC8D7E000AD0758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DCA63861CC8D7E000AD0758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF64C107375AF33024F2646 /* Pods-WLJazzHandsDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WLJazzHandsDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = WLJazzHandsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.lane128.WLJazzHandsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DCA63871CC8D7E000AD0758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B09580CB046CC267000F0D4B /* Pods-WLJazzHandsDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WLJazzHandsDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = WLJazzHandsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.lane128.WLJazzHandsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3DCA63891CC8D7E000AD0758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4A21810561E72878FA902FB /* Pods-WLJazzHandsDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WLJazzHandsDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.lane128.WLJazzHandsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WLJazzHandsDemo.app/WLJazzHandsDemo";
+			};
+			name = Debug;
+		};
+		3DCA638A1CC8D7E000AD0758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83EABB929EFB22D8B213DEAF /* Pods-WLJazzHandsDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WLJazzHandsDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.lane128.WLJazzHandsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WLJazzHandsDemo.app/WLJazzHandsDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DCA635E1CC8D7DF00AD0758 /* Build configuration list for PBXProject "WLJazzHandsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCA63831CC8D7E000AD0758 /* Debug */,
+				3DCA63841CC8D7E000AD0758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCA63851CC8D7E000AD0758 /* Build configuration list for PBXNativeTarget "WLJazzHandsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCA63861CC8D7E000AD0758 /* Debug */,
+				3DCA63871CC8D7E000AD0758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCA63881CC8D7E000AD0758 /* Build configuration list for PBXNativeTarget "WLJazzHandsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCA63891CC8D7E000AD0758 /* Debug */,
+				3DCA638A1CC8D7E000AD0758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DCA635B1CC8D7DF00AD0758 /* Project object */;
+}
